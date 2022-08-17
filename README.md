@@ -1,5 +1,5 @@
 # Configuración de NVIM desde cero
-<hr></hr>
+
 
 # Prerequisitos
 
@@ -28,7 +28,7 @@ Instalar go
 ```
 sudo apt install golang-go
 ```
-## Programas varios
+## Necesarios para pluggin y programación 
 
 ### Nodejs
 ```
@@ -57,4 +57,34 @@ sudo npm install -g black
 ### Instalar fd
 ```
 sudo apt install fd-find
+```
+### Instalar Python ultima version
+```
+sudo apt install python3-pip  
+pip install pynvim  
+pip3 install --upgrade pynvim  
+pip3 install black
+```
+### Instalar Stylua
+```
+cargo install stylua
+```
+### Instalar Lazygit
+```
+sudo pacman -S lazygit
+```
+### Instalar Ninja
+```
+sudo apt-get install ninja-build
+```
+## Instalar NVIM última versión
+```
+sudo apt remove neovim -y  
+sudo add-apt-repository ppa:neovim-ppa/stable  
+sudo apt-get update  
+sudo apt-get install neovim
+```
+### Ubicación de archivo de configuración de Nvim
+```
+Carpeta de configuración: ~/.config/nvim/
 ```
