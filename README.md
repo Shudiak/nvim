@@ -1,9 +1,9 @@
 # Configuración de NVIM desde cero
 <hr></hr>
 
-## Prerequisitos
+# Prerequisitos
 
-#### Packer Manager
+## Packer Manager
 * Npm
 * Cargo
 * Pacman
@@ -27,4 +27,34 @@ sudo ln -sv /usr/local/bin/pacapt /usr/local/bin/pacman || true
 Instalar go
 ```
 sudo apt install golang-go
+```
+## Programas varios
+
+### Nodejs
+```
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+https://phoenixnap.com/kb/update-node-js-version
+```
+### Tree sitter
+```
+npm install tree-sitter
+npm install -g tree-sitter-cli
+```
+### Instalar ripgrep
+```
+sudo apt-get install ripgrep
+```
+### Instalar prettier
+```
+sudo npm install -g prettier
+```
+### Instalar black
+```
+sudo npm install -g black
+```
+### Instalar fd
+```
+sudo apt install fd-find
 ```
